@@ -1,7 +1,7 @@
 # Core dependencies
 streamlit==1.41.0  # Streamlit framework
-crewai==0.86.0  # Core functionality for CrewAI
-chromadb>=0.5.18  # Required by CrewAI for embedding functionalities
+crewai==0.85.0  # Core functionality for CrewAI
+chromadb==0.3.22  # Required by CrewAI for embedding functionalities
 
 # Data manipulation
 numpy==1.26.4  # Numerical computations
