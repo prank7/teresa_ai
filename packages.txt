@@ -1,4 +1,3 @@
 libsqlite3-dev
 curl
 build-essential
-unzip
