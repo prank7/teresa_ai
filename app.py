@@ -1,6 +1,9 @@
 import os
-os.system('bash setup.sh')
 
+# Upgrade SQLite
+os.system("bash setup.sh")
+
+# Confirm SQLite version
 import sqlite3
 print(f"SQLite version: {sqlite3.sqlite_version}")
 

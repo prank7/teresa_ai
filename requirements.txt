@@ -1,7 +1,7 @@
 # Core dependencies
 streamlit==1.41.0  # Streamlit framework
 crewai==0.85.0  # Core functionality for CrewAI
-chromadb==0.3.22  # Required by CrewAI for embedding functionalities
+chromadb  # Required by CrewAI for embedding functionalities
 
 # Data manipulation
 numpy==1.26.4  # Numerical computations
@@ -17,3 +17,6 @@ requests==2.32.3  # HTTP requests
 pydantic==2.10.3  # Data validation and settings management
 setuptools>=67.6.1  # Python package setup
 wheel  # Build utilities
+
+pip>=24.3.1
+setuptools>=67.6.1
