@@ -1,6 +1,9 @@
 import os
 os.system('bash setup.sh')
 
+import sqlite3
+print(f"SQLite version: {sqlite3.sqlite_version}")
+
 import streamlit as st
 from needs_analyzer import NeedsAnalysisCrew
 import json
