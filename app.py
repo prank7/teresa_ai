@@ -1,3 +1,6 @@
+import os
+os.system('bash setup.sh')
+
 import streamlit as st
 from needs_analyzer import NeedsAnalysisCrew
 import json
