@@ -20,3 +20,6 @@ wheel  # Build utilities
 
 pip>=24.3.1
 setuptools>=67.6.1
+
+# Replace pysqlite3-binary with:
+pysqlite3-binary
