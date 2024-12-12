@@ -49,3 +49,6 @@ htmlcov/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+
+sqlite-autoconf-3470200*

@@ -5,7 +5,7 @@ os.system("bash setup.sh")
 
 # Confirm SQLite version
 import sqlite3
-print(f"SQLite version: {sqlite3.sqlite_version}")
+print(f"!SQLite version: {sqlite3.sqlite_version}")
 
 import streamlit as st
 from needs_analyzer import NeedsAnalysisCrew
